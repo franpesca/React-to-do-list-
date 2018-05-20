@@ -1,0 +1,64 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
+
+body{
+  background-color: black;
+  color:greenyellow;
+}
+
+input{
+  color:greenyellow;
+  background-color: darkgray;
+  /* margin-top: 300px; */
+  display: block;
+  margin:auto;
+  width: 230px;
+  text-align: center;
+  font-size: 18px;
+}
+
+
+.button{
+  display: block;
+  margin:auto;
+  margin-top: 70px;
+}
+
+
+
+
+.to-do-list{
+
+  width: 500px;
+  height: 300px;
+  border: 5px solid greenyellow;
+  margin: auto;
+  display: block;
+  margin-top: 150px;
+}
