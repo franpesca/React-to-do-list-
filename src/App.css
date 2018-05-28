@@ -1,64 +1,99 @@
-/* .App {
-  text-align: center;
+*{
+  outline:none;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-} */
+/* cosi facendo non ci sono outline (bottone contorno blue) */
 
 body{
-  background-color: black;
+  background-color: #ff008d66;
   color:greenyellow;
+  font-family: 'Syncopate', sans-serif;
 }
 
 input{
+  font-family: 'Syncopate', sans-serif;
   color:greenyellow;
   background-color: darkgray;
   /* margin-top: 300px; */
   display: block;
   margin:auto;
+  margin-top: 1.5em;
   width: 230px;
   text-align: center;
   font-size: 18px;
 }
 
+input::placeholder{
+  font-size: 10px;
+  color: rgba(98, 63, 253, 0.945);
+}
 
-.button{
-  display: block;
-  margin:auto;
-  margin-top: 70px;
+h1{
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Fugaz One', cursive;
+  /* font-family: 'Permanent Marker', cursive; */
+  color: #fbbcff;
+  text-shadow: 0px 1px 0px white;
 }
 
 
-
-
 .to-do-list{
-
+  color: #a2e8ff;
   width: 500px;
-  height: 300px;
+  height: auto;
   border: 5px solid greenyellow;
   margin: auto;
   display: block;
-  margin-top: 150px;
+  margin-top: 110px;
+  line-height: 30px;
+  -webkit-box-shadow: inset 1px 2px 21px 1px rgba(240,226,240,0.62);
+  -moz-box-shadow: inset 1px 2px 21px 1px rgba(240,226,240,0.62);
+  box-shadow: inset 1px 2px 21px 1px rgba(240,226,240,0.62);
+}
+
+.button-yo{
+  padding: 10px; 
+  margin-right: 18px;
+}
+
+
+.myButton {
+  /* background-color: orange; */
+  font-family: 'Syncopate', sans-serif;
+  -moz-box-shadow:inset 0px -1px 7px 0px #eb8d28;
+  -webkit-box-shadow:inset 0px -1px 7px 0px #eb8d28;
+  box-shadow:inset 0px -1px 7px 0px #eb8d28;
+  background-color:transparent;
+  -moz-border-radius:15px;
+  -webkit-border-radius:15px;
+  border-radius:15px;
+  /* display:inline-block; */
+  display: block;
+  margin: auto;
+  margin-top: 35px;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:15px;
+  padding:8px 14px;
+  text-decoration:none;
+  text-shadow:0px 0px 0px #576627;
+}
+.myButton:hover {
+  -moz-box-shadow:inset 0px -1px 7px 0px #5feb28;
+  -webkit-box-shadow:inset 0px -1px 7px 0px #5feb28;
+  box-shadow:inset 0px -1px 7px 0px #5feb28;
+  background-color:transparent;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+   
+
+li{
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: space-between;
 }

@@ -1,0 +1,8 @@
+.popup{
+    width: 50%;
+    margin: auto;
+    /* background-color: aquamarine; */
+    color: orange;
+    font-family: 'Syncopate', sans-serif;
+    z-index: -1;
+}
